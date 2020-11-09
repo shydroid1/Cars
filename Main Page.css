@@ -1,0 +1,70 @@
+body {
+    background-color: white;
+}
+
+.overlay .Ferrari{
+background-image: transparent;
+}
+
+.overlay .LexusLFA{
+    background-image: transparent;
+    opacity: .5;
+}
+.overlay .Porsche918Spider{
+    background-image: transparent;
+}
+.overlay .SianRoadster{
+    background-image: transparent;
+}
+
+div {
+    font-size: 100px;
+    text-align: center;
+    font-family: cursive;
+    font-style: oblique;
+}
+
+div {
+    color: black;
+    z-index: 1;
+}
+
+nav {
+    text-align: center;
+    font-size: 25%;
+    font-size: 45%;
+}
+
+h1 {
+    font-size:65px;
+    color: black;
+    margin-top: 15px;
+    text-align: center;
+    width: 100%;
+}
+li {
+    font-size: 35px;
+}
+ img {
+     width: auto;
+     height: auto;
+ }
+
+ p {
+     text-align: center;
+     font-size: 15px;
+ }
+ footer {
+     text-align: center;
+     font-size: 55px;
+     font-style: italic;
+     font-family: fantasy;
+     box-sizing: border-box;
+ }
+ .dropdownbtn {
+     height: 100px;
+     width: 100px;
+     color: black;
+ }
+
+ 
