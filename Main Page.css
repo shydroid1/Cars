@@ -1,15 +1,29 @@
 body {
-    background-color: white;
+    background-color: red;
+    text-align: center;
+    background-position: center;
 }
-
 .overlay .Ferrari{
 background-image: transparent;
+opacity: 0.5s;
 }
 
+    .hide {
+        display: none;
+    }
+    .myDIV:hover + .hide {
+        display: block;
+}
 .overlay .LexusLFA{
     background-image: transparent;
     opacity: .5;
-}
+    }
+    .hide {
+        display: none;
+      }
+      .myDIV:hover + .hide {
+        display: block;
+      } 
 .overlay .Porsche918Spider{
     background-image: transparent;
 }
@@ -31,20 +45,25 @@ div {
 
 nav {
     text-align: center;
-    font-size: 25%;
-    font-size: 45%;
+    font-size: 45px;
 }
 
 h1 {
-    font-size:65px;
+    font-size:45px;
     color: black;
     margin-top: 15px;
     text-align: center;
     width: 100%;
 }
+
 li {
-    font-size: 35px;
+    font-size: 55px;
+    color:salmon
 }
+div.text {
+    font-size: 65px;
+}
+
  img {
      width: auto;
      height: auto;
@@ -54,6 +73,7 @@ li {
      text-align: center;
      font-size: 15px;
  }
+
  footer {
      text-align: center;
      font-size: 55px;
@@ -61,10 +81,14 @@ li {
      font-family: fantasy;
      box-sizing: border-box;
  }
- .dropdownbtn {
-     height: 100px;
-     width: 100px;
-     color: black;
- }
 
- 
+ img:hover {
+     transition-duration: 0.3s;
+     color: transparent;
+ }
+     .hide {
+        display: none;
+      }
+      .myDIV:hover + .hide {
+        display: block;
+    }    
