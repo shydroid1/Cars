@@ -1,20 +1,59 @@
 body {
-    background-color: red;
+    background-color: rgb(161, 153, 153);
     text-align: center;
-    background-position: center;
-}
-.overlay .Ferrari{
-background-image: transparent;
-opacity: 0.5s;
+    position: fixed;
 }
 
+
+@media only screen 
+and (min-device-width : 200px) 
+and (max-device-width : 300px) {
+}
+
+@media only screen 
+and (min-device-width : 500px) 
+and (max-device-width : 700px) {
+}
+
+.background-image {
+    background-position: fixed;
+}
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  }
+img {
+    min-height: 100%;
+    height: 100%;
+    min-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.overlay .LexusLFA{
+    background-image: transparent;
+    opacity: .5;
+    margin-right: 500px;
+}
     .hide {
         display: none;
     }
-    .myDIV:hover + .hide {
+      .myDIV:hover + .hide {
         display: block;
-}
-.overlay .LexusLFA{
+      } 
+      .overlay {
+        background-position: center;
+      }
+      h1 {
+          text-align: center;
+      }
+
+.overlay .SianRoadster{
+    background-position: center;
     background-image: transparent;
     opacity: .5;
     }
@@ -24,12 +63,12 @@ opacity: 0.5s;
       .myDIV:hover + .hide {
         display: block;
       } 
-.overlay .Porsche918Spider{
-    background-image: transparent;
-}
-.overlay .SianRoadster{
-    background-image: transparent;
-}
+      .image {
+          background-position: center;
+      }
+      h1 {
+          text-align: center;
+      }
 
 div {
     font-size: 100px;
@@ -41,6 +80,7 @@ div {
 div {
     color: black;
     z-index: 1;
+    text-align: center;
 }
 
 nav {
@@ -57,17 +97,13 @@ h1 {
 }
 
 li {
-    font-size: 55px;
-    color:salmon
+    font-size: 45px;
+    color:yellow;
+    text-align: center;
 }
 div.text {
     font-size: 65px;
 }
-
- img {
-     width: auto;
-     height: auto;
- }
 
  p {
      text-align: center;
@@ -92,3 +128,8 @@ div.text {
       .myDIV:hover + .hide {
         display: block;
     }    
+    .container {
+        align-items: center;
+        text-align: center;
+        background-position: center;
+    }
