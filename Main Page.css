@@ -1,18 +1,7 @@
 body {
-    background-color: red;
+    background-color: white;
     text-align: center;
     background-position: center;
-}
-.overlay .Ferrari{
-background-image: transparent;
-opacity: 0.5s;
-}
-
-    .hide {
-        display: none;
-    }
-    .myDIV:hover + .hide {
-        display: block;
 }
 .overlay .LexusLFA{
     background-image: transparent;
@@ -24,13 +13,16 @@ opacity: 0.5s;
       .myDIV:hover + .hide {
         display: block;
       } 
-.overlay .Porsche918Spider{
-    background-image: transparent;
-}
-.overlay .SianRoadster{
-    background-image: transparent;
-}
 
+.overlay .Ferrari{
+        background-image: transparent;
+        opacity: 0.5;
+      }
+      .hide {display: none;
+    }
+    .myDIV:hover{
+    display:block;
+    }
 div {
     font-size: 100px;
     text-align: center;
@@ -57,8 +49,8 @@ h1 {
 }
 
 li {
-    font-size: 55px;
-    color:salmon
+    font-size: 35px;
+    color:white
 }
 div.text {
     font-size: 65px;
@@ -67,6 +59,7 @@ div.text {
  img {
      width: auto;
      height: auto;
+     border-radius: 50px;
  }
 
  p {
@@ -92,3 +85,38 @@ div.text {
       .myDIV:hover + .hide {
         display: block;
     }    
+
+.overlay {
+    text-align: center;
+    margin-bottom: 50%;
+}
+
+@media (min-width: 1000px) {
+    .col {
+    margin-bottom: 10px
+    }
+    .rowone {
+    width: 60%;
+    float: left;
+    }
+    .rowtwo {
+    width: 40%;
+    float: right;
+    }
+    .middle {
+    float: right;
+    width: 66.6%;
+    background: white;
+    }
+    .left {
+    float: left;
+    width: 32%;
+    background: white;
+    }
+    .right {
+    float: left;
+    width: 100%;
+    background: white;
+    margin-bottom: 30px;;
+    }
+}

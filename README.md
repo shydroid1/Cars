@@ -11,15 +11,6 @@
 
 2. Javascript
 - Created a JavaScript array that has values in disaplys
--
-
-
-
-
-
-
-
- 
 
 
 ### Changes will be made (soon) 

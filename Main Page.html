@@ -2,58 +2,58 @@
 <html lang="en-US">
    <head>
       <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
       <link>
       <link rel="stylesheet" href="Main Page.css">
-      <script src="Main.js"></script>
       <title>Cars</title>
    </head>
    <body>
       <p id="demo"></p>
       <script>
-         document.getElementById("Main.js").innerHTML ="let";
-         document.getElementById("demo").innerHTML = car;
+         var Car= "Ferrari";
+         document.getElementById("demo").innerHTML = "car";
       </script>
       <style>
-        .container {
-               position: relative;
-               width: 50%;
-               }
+    .container {
+  position: relative;
+  width: 100%;
+}
 
-               .image {
-               display: block;
-               width: 100%;
-               height: auto;
-               }
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
-               .overlay {
-               position: absolute;
-               top: 0;
-               bottom: 0;
-               left: 0;
-               right: 0;
-               height: 100%;
-               width: 100%;
-               opacity: 0;
-               transition: .5s ease;
-               background-color: transparent;
-               }
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 75px;
+  left: 0;
+  right: 0;
+  height: 50%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: transparent;
+}
 
-               .container:hover .overlay {
-               opacity: 1;
-               }
+.container:hover .overlay {
+  opacity: 1;
+}
 
-               .text {
-               color: white;
-               font-size: 20px;
-               position: absolute;
-               top: 50%;
-               left: 50%;
-               -webkit-transform: translate(-50%, -50%);
-               -ms-transform: translate(-50%, -50%);
-               transform: translate(-50%, -50%);
-               text-align: center;
-               }
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  line-height: 1em;
+}
       </style>
       <div class="container"></div>
       <div style="border: 5px color"></div>
@@ -64,8 +64,6 @@
             <a href="#About">About</a>
             <a href="#Facts">Facts</a>
             <br>
-            <a href="#ContactUS">Contact us</a>
-            <tr>
          </aside>
       </nav>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consequat vulputate nunc, quis lobortis eros commodo a. Nam rutrum velit lacinia dui mollis dapibus. Phasellus sit amet eros eu nisi facilisis porttitor. Donec convallis, enim facilisis pellentesque pharetra, felis nulla laoreet velit, quis semper risus urna a mauris. Duis sed mauris eu mi congue varius eu non tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In porttitor enim orci, vitae placerat augue luctus non. Vivamus ultricies elementum magna, id posuere quam vulputate et. Proin nisi sapien, mollis eget erat et, consequat faucibus tellus. Morbi ornare consequat tortor, id facilisis odio. Nulla facilisi. Donec ac mi sapien. In hac habitasse platea dictumst.
@@ -110,6 +108,28 @@
       Mauris a rhoncus lorem, id varius purus. Proin vulputate dapibus condimentum. Maecenas scelerisque, elit sit amet egestas venenatis, turpis magna tristique dolor, eu congue velit dolor at sem. Nulla laoreet sapien at tortor blandit consequat. Nunc convallis metus arcu, quis viverra urna tempor nec. Cras et nunc non quam dapibus volutpat non ac nisi. Morbi tincidunt elit vel ex ornare varius. Duis at elit non ante posuere consequat. Proin non consectetur nunc. Maecenas lorem libero, feugiat id hendrerit quis, sollicitudin sed eros. Aenean sed mi leo. Duis a placerat tellus. Aliquam lorem arcu, facilisis ut semper non, consectetur a risus. Nulla semper commodo blandit. Aenean eu sapien nunc.
       Nunc tincidunt dignissim lectus ac scelerisque. Fusce nec nulla ut velit condimentum rutrum quis id justo. Curabitur iaculis, quam vel tristique ullamcorper, sem felis tempus augue, et pellentesque augue est eu massa. Sed mattis augue sit amet rutrum lobortis. Maecenas ultrices finibus dapibus. Nullam eget metus malesuada, tempor nulla at, ullamcorper est. Nunc cursus velit egestas, tristique dolor nec, congue mauris. In ultricies justo ac magna dapibus, vel elementum lacus placerat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis varius lacus quis augue facilisis, vel convallis odio eleifend. Nullam sit amet nunc justo. Nunc erat odio, convallis et vestibulum ac, eleifend ut nibh.
       Pellentesque aliquet velit a erat rutrum auctor. Proin suscipit leo tortor, suscipit euismod ligula elementum non. Nulla faucibus magna dolor. Proin eleifend quam felis, a venenatis magna varius nec. Donec porta condimentum maximus. Etiam a enim ante. In hac habitasse platea dictumst. Sed sit amet nisi vel felis commodo aliquam quis ut orci. Cras suscipit nulla ac turpis congue, eu porttitor urna facilisis. Donec ante nisl, semper ut accumsan id, ullamcorper eu lacus. Ut ultrices sem sit amet nulla interdum blandit. Nulla nec neque facilisis, auctor turpis non, sodales tortor.0</p>
+      <span id="Facts"></span>
+      <h1>Facts</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consequat vulputate nunc, quis lobortis eros commodo a. Nam rutrum velit lacinia dui mollis dapibus. Phasellus sit amet eros eu nisi facilisis porttitor. Donec convallis, enim facilisis pellentesque pharetra, felis nulla laoreet velit, quis semper risus urna a mauris. Duis sed mauris eu mi congue varius eu non tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In porttitor enim orci, vitae placerat augue luctus non. Vivamus ultricies elementum magna, id posuere quam vulputate et. Proin nisi sapien, mollis eget erat et, consequat faucibus tellus. Morbi ornare consequat tortor, id facilisis odio. Nulla facilisi. Donec ac mi sapien. In hac habitasse platea dictumst.
+         Fusce pharetra placerat rhoncus. Phasellus massa ante, ultricies et libero et, facilisis vehicula metus. Aliquam ac felis at velit tincidunt mattis vel quis magna. Proin cursus feugiat elit, ut condimentum nisl aliquam efficitur. Morbi porta rhoncus ligula sit amet egestas. Nullam eu elementum purus, vitae bibendum urna. Integer pretium rhoncus nulla, ac feugiat lorem egestas et. Maecenas accumsan nunc vel commodo faucibus. Ut ex dolor, convallis iaculis odio eget, aliquam tempor erat. Mauris in dolor dictum, tempus est ut, luctus massa. Cras eu eros enim.
+         Mauris a rhoncus lorem, id varius purus. Proin vulputate dapibus condimentum. Maecenas scelerisque, elit sit amet egestas venenatis, turpis magna tristique dolor, eu congue velit dolor at sem. Nulla laoreet sapien at tortor blandit consequat. Nunc convallis metus arcu, quis viverra urna tempor nec. Cras et nunc non quam dapibus volutpat non ac nisi. Morbi tincidunt elit vel ex ornare varius. Duis at elit non ante posuere consequat. Proin non consectetur nunc. Maecenas lorem libero, feugiat id hendrerit quis, sollicitudin sed eros. Aenean sed mi leo. Duis a placerat tellus. Aliquam lorem arcu, facilisis ut semper non, consectetur a risus. Nulla semper commodo blandit. Aenean eu sapien nunc.
+         Nunc tincidunt dignissim lectus ac scelerisque. Fusce nec nulla ut velit condimentum rutrum quis id justo. Curabitur iaculis, quam vel tristique ullamcorper, sem felis tempus augue, et pellentesque augue est eu massa. Sed mattis augue sit amet rutrum lobortis. Maecenas ultrices finibus dapibus. Nullam eget metus malesuada, tempor nulla at, ullamcorper est. Nunc cursus velit egestas, tristique dolor nec, congue mauris. In ultricies justo ac magna dapibus, vel elementum lacus placerat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis varius lacus quis augue facilisis, vel convallis odio eleifend. Nullam sit amet nunc justo. Nunc erat odio, convallis et vestibulum ac, eleifend ut nibh.
+         Pellentesque aliquet velit a erat rutrum auctor. Proin suscipit leo tortor, suscipit euismod ligula elementum non. Nulla faucibus magna dolor. Proin eleifend quam felis, a venenatis magna varius nec. Donec porta condimentum maximus. Etiam a enim ante. In hac habitasse platea dictumst. Sed sit amet nisi vel felis commodo aliquam quis ut orci. Cras suscipit nulla ac turpis congue, eu porttitor urna facilisis. Donec ante nisl, semper ut accumsan id, ullamcorper eu lacus. Ut ultrices sem sit amet nulla interdum blandit. Nulla nec neque facilisis, auctor turpis non, sodales tortor.0</p>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consequat vulputate nunc, quis lobortis eros commodo a. Nam rutrum velit lacinia dui mollis dapibus. Phasellus sit amet eros eu nisi facilisis porttitor. Donec convallis, enim facilisis pellentesque pharetra, felis nulla laoreet velit, quis semper risus urna a mauris. Duis sed mauris eu mi congue varius eu non tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In porttitor enim orci, vitae placerat augue luctus non. Vivamus ultricies elementum magna, id posuere quam vulputate et. Proin nisi sapien, mollis eget erat et, consequat faucibus tellus. Morbi ornare consequat tortor, id facilisis odio. Nulla facilisi. Donec ac mi sapien. In hac habitasse platea dictumst.
+         Fusce pharetra placerat rhoncus. Phasellus massa ante, ultricies et libero et, facilisis vehicula metus. Aliquam ac felis at velit tincidunt mattis vel quis magna. Proin cursus feugiat elit, ut condimentum nisl aliquam efficitur. Morbi porta rhoncus ligula sit amet egestas. Nullam eu elementum purus, vitae bibendum urna. Integer pretium rhoncus nulla, ac feugiat lorem egestas et. Maecenas accumsan nunc vel commodo faucibus. Ut ex dolor, convallis iaculis odio eget, aliquam tempor erat. Mauris in dolor dictum, tempus est ut, luctus massa. Cras eu eros enim.
+         Mauris a rhoncus lorem, id varius purus. Proin vulputate dapibus condimentum. Maecenas scelerisque, elit sit amet egestas venenatis, turpis magna tristique dolor, eu congue velit dolor at sem. Nulla laoreet sapien at tortor blandit consequat. Nunc convallis metus arcu, quis viverra urna tempor nec. Cras et nunc non quam dapibus volutpat non ac nisi. Morbi tincidunt elit vel ex ornare varius. Duis at elit non ante posuere consequat. Proin non consectetur nunc. Maecenas lorem libero, feugiat id hendrerit quis, sollicitudin sed eros. Aenean sed mi leo. Duis a placerat tellus. Aliquam lorem arcu, facilisis ut semper non, consectetur a risus. Nulla semper commodo blandit. Aenean eu sapien nunc.
+         Nunc tincidunt dignissim lectus ac scelerisque. Fusce nec nulla ut velit condimentum rutrum quis id justo. Curabitur iaculis, quam vel tristique ullamcorper, sem felis tempus augue, et pellentesque augue est eu massa. Sed mattis augue sit amet rutrum lobortis. Maecenas ultrices finibus dapibus. Nullam eget metus malesuada, tempor nulla at, ullamcorper est. Nunc cursus velit egestas, tristique dolor nec, congue mauris. In ultricies justo ac magna dapibus, vel elementum lacus placerat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis varius lacus quis augue facilisis, vel convallis odio eleifend. Nullam sit amet nunc justo. Nunc erat odio, convallis et vestibulum ac, eleifend ut nibh.
+         Pellentesque aliquet velit a erat rutrum auctor. Proin suscipit leo tortor, suscipit euismod ligula elementum non. Nulla faucibus magna dolor. Proin eleifend quam felis, a venenatis magna varius nec. Donec porta condimentum maximus. Etiam a enim ante. In hac habitasse platea dictumst. Sed sit amet nisi vel felis commodo aliquam quis ut orci. Cras suscipit nulla ac turpis congue, eu porttitor urna facilisis. Donec ante nisl, semper ut accumsan id, ullamcorper eu lacus. Ut ultrices sem sit amet nulla interdum blandit. Nulla nec neque facilisis, auctor turpis non, sodales tortor.0</p>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consequat vulputate nunc, quis lobortis eros commodo a. Nam rutrum velit lacinia dui mollis dapibus. Phasellus sit amet eros eu nisi facilisis porttitor. Donec convallis, enim facilisis pellentesque pharetra, felis nulla laoreet velit, quis semper risus urna a mauris. Duis sed mauris eu mi congue varius eu non tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In porttitor enim orci, vitae placerat augue luctus non. Vivamus ultricies elementum magna, id posuere quam vulputate et. Proin nisi sapien, mollis eget erat et, consequat faucibus tellus. Morbi ornare consequat tortor, id facilisis odio. Nulla facilisi. Donec ac mi sapien. In hac habitasse platea dictumst.
+         Fusce pharetra placerat rhoncus. Phasellus massa ante, ultricies et libero et, facilisis vehicula metus. Aliquam ac felis at velit tincidunt mattis vel quis magna. Proin cursus feugiat elit, ut condimentum nisl aliquam efficitur. Morbi porta rhoncus ligula sit amet egestas. Nullam eu elementum purus, vitae bibendum urna. Integer pretium rhoncus nulla, ac feugiat lorem egestas et. Maecenas accumsan nunc vel commodo faucibus. Ut ex dolor, convallis iaculis odio eget, aliquam tempor erat. Mauris in dolor dictum, tempus est ut, luctus massa. Cras eu eros enim.
+         Mauris a rhoncus lorem, id varius purus. Proin vulputate dapibus condimentum. Maecenas scelerisque, elit sit amet egestas venenatis, turpis magna tristique dolor, eu congue velit dolor at sem. Nulla laoreet sapien at tortor blandit consequat. Nunc convallis metus arcu, quis viverra urna tempor nec. Cras et nunc non quam dapibus volutpat non ac nisi. Morbi tincidunt elit vel ex ornare varius. Duis at elit non ante posuere consequat. Proin non consectetur nunc. Maecenas lorem libero, feugiat id hendrerit quis, sollicitudin sed eros. Aenean sed mi leo. Duis a placerat tellus. Aliquam lorem arcu, facilisis ut semper non, consectetur a risus. Nulla semper commodo blandit. Aenean eu sapien nunc.
+         Nunc tincidunt dignissim lectus ac scelerisque. Fusce nec nulla ut velit condimentum rutrum quis id justo. Curabitur iaculis, quam vel tristique ullamcorper, sem felis tempus augue, et pellentesque augue est eu massa. Sed mattis augue sit amet rutrum lobortis. Maecenas ultrices finibus dapibus. Nullam eget metus malesuada, tempor nulla at, ullamcorper est. Nunc cursus velit egestas, tristique dolor nec, congue mauris. In ultricies justo ac magna dapibus, vel elementum lacus placerat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis varius lacus quis augue facilisis, vel convallis odio eleifend. Nullam sit amet nunc justo. Nunc erat odio, convallis et vestibulum ac, eleifend ut nibh.
+         Pellentesque aliquet velit a erat rutrum auctor. Proin suscipit leo tortor, suscipit euismod ligula elementum non. Nulla faucibus magna dolor. Proin eleifend quam felis, a venenatis magna varius nec. Donec porta condimentum maximus. Etiam a enim ante. In hac habitasse platea dictumst. Sed sit amet nisi vel felis commodo aliquam quis ut orci. Cras suscipit nulla ac turpis congue, eu porttitor urna facilisis. Donec ante nisl, semper ut accumsan id, ullamcorper eu lacus. Ut ultrices sem sit amet nulla interdum blandit. Nulla nec neque facilisis, auctor turpis non, sodales tortor.0</p>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consequat vulputate nunc, quis lobortis eros commodo a. Nam rutrum velit lacinia dui mollis dapibus. Phasellus sit amet eros eu nisi facilisis porttitor. Donec convallis, enim facilisis pellentesque pharetra, felis nulla laoreet velit, quis semper risus urna a mauris. Duis sed mauris eu mi congue varius eu non tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In porttitor enim orci, vitae placerat augue luctus non. Vivamus ultricies elementum magna, id posuere quam vulputate et. Proin nisi sapien, mollis eget erat et, consequat faucibus tellus. Morbi ornare consequat tortor, id facilisis odio. Nulla facilisi. Donec ac mi sapien. In hac habitasse platea dictumst.
+         Fusce pharetra placerat rhoncus. Phasellus massa ante, ultricies et libero et, facilisis vehicula metus. Aliquam ac felis at velit tincidunt mattis vel quis magna. Proin cursus feugiat elit, ut condimentum nisl aliquam efficitur. Morbi porta rhoncus ligula sit amet egestas. Nullam eu elementum purus, vitae bibendum urna. Integer pretium rhoncus nulla, ac feugiat lorem egestas et. Maecenas accumsan nunc vel commodo faucibus. Ut ex dolor, convallis iaculis odio eget, aliquam tempor erat. Mauris in dolor dictum, tempus est ut, luctus massa. Cras eu eros enim.
+         Mauris a rhoncus lorem, id varius purus. Proin vulputate dapibus condimentum. Maecenas scelerisque, elit sit amet egestas venenatis, turpis magna tristique dolor, eu congue velit dolor at sem. Nulla laoreet sapien at tortor blandit consequat. Nunc convallis metus arcu, quis viverra urna tempor nec. Cras et nunc non quam dapibus volutpat non ac nisi. Morbi tincidunt elit vel ex ornare varius. Duis at elit non ante posuere consequat. Proin non consectetur nunc. Maecenas lorem libero, feugiat id hendrerit quis, sollicitudin sed eros. Aenean sed mi leo. Duis a placerat tellus. Aliquam lorem arcu, facilisis ut semper non, consectetur a risus. Nulla semper commodo blandit. Aenean eu sapien nunc.
+         Nunc tincidunt dignissim lectus ac scelerisque. Fusce nec nulla ut velit condimentum rutrum quis id justo. Curabitur iaculis, quam vel tristique ullamcorper, sem felis tempus augue, et pellentesque augue est eu massa. Sed mattis augue sit amet rutrum lobortis. Maecenas ultrices finibus dapibus. Nullam eget metus malesuada, tempor nulla at, ullamcorper est. Nunc cursus velit egestas, tristique dolor nec, congue mauris. In ultricies justo ac magna dapibus, vel elementum lacus placerat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis varius lacus quis augue facilisis, vel convallis odio eleifend. Nullam sit amet nunc justo. Nunc erat odio, convallis et vestibulum ac, eleifend ut nibh.
+         Pellentesque aliquet velit a erat rutrum auctor. Proin suscipit leo tortor, suscipit euismod ligula elementum non. Nulla faucibus magna dolor. Proin eleifend quam felis, a venenatis magna varius nec. Donec porta condimentum maximus. Etiam a enim ante. In hac habitasse platea dictumst. Sed sit amet nisi vel felis commodo aliquam quis ut orci. Cras suscipit nulla ac turpis congue, eu porttitor urna facilisis. Donec ante nisl, semper ut accumsan id, ullamcorper eu lacus. Ut ultrices sem sit amet nulla interdum blandit. Nulla nec neque facilisis, auctor turpis non, sodales tortor.0</p>
       <span id="Cars"></span>
       <b><h1>Cars</h1></b>
       <nav>
@@ -119,9 +139,10 @@
             <a href="#sian-roadster">sian-roadster</a>
             <a href="#Contact Us">Contact Us</a>
       </nav>
-      <span id ="lexusLFA"></span>
+      <span id ="LexusLFA"></span>
       <div class="container">
-            <img src="lexusLFA.jpg" alt="background" class="image" width="1280px"; height="720px";>
+         <h1>LexusLFA</h1>
+         <img src="Lexus LFA yellow.jpg">
             <div class="overlay">
                <div class="text">Specs
                   <li>Top Speed 202Mph</li>
@@ -131,27 +152,42 @@
             </div>
       </div>
       <span id ="sian-roadster"></span>
-      <h1>sian-roadster</h1>
-      <img src="sian-roadster-promo.jpg" target= "https://www.lamborghini.com/en-en/models/limited-series/sian-roadster">
-      <div>SPECS</div>
-      <tbody>
-         <li>Top Speed 218Mph</li>
-         <li>Acceleration 0-60 @ 2.9s</li>
-         <li>PowerkW 602kW</li>
-      </tbody>
-      <span id ="Porshe"></span>
-            <h1>Porshe</h1>
-      <img src="Porsche 918 Spider.jpg"style="width: 1050px;height:700px;"target= "https://www.caranddriver.com/features/a15111035/the-2015-porsche-918-spyder-is-the-quickest-road-car-in-the-world-feature/">
-      <h1>Porsche 918 Spider</h1>
-      <div>SPECS</div>
-      <tbody>
-      <li>Top Speed 350Mph </li>
-      <li> Acceleration 0-60 @ 2.5s</li>
-      <li> Horsepower 887</li>
-      </tbody>
-      <span id ="ContactUS"></span>
-      <h1>ContactUS</h1>
-      </div>                                              
+      <div class="container">
+         <h1>sian-roadster</h1>
+            <img style="text-align: center;"src="sian-roadster-promo.jpg" class="background-image">  
+            <div class="overlay">
+               <div class="text">Specs
+                  Top Speed 202Mph
+                  Acceleration 0-60 3.6s
+                  Horsepower 552 hp
+               </div>
+         </div>
+   </div>
+         <span id ="Ferrari"></span>
+         <div class="container">
+                  <h1>Ferrari 488 pista</h1>
+                  <img src="Ferrari.jpg">
+                  <div class="overlay">
+                     <div class="text">Specs
+                        <li>Top Speed 211Mph</li>
+                        <li>Acceleration 0-60 @ 2.7s</li>
+                        <li>Horsepower 711 hp</li>
+                     </div>
+                  </div>
+          </div>
+            <span id ="Porshe"></span>
+            <div class="container">
+               <h1>Porsche 918 Spider</h1>
+               <img src="Porsche 918 Spider.jpg"width="1050px"; height="700px";>
+               <div class="overlay">
+                  <div class="text">Specs
+                     <li>Top Speed 350Mph</li>
+                     <li> Acceleration 0-60 @ 2.5s</li>
+                     <li> Horsepower 887</li>
+                  </div>
+               </div>
+            </div>
+         <script src="Main.js"></script>
    </body>
 </html>
 <footer>Copyrighted bruhh</footer>
