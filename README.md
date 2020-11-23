@@ -22,8 +22,8 @@
  
 
 
-## Changes will be made (soon) 
---ill have some time to make the webiste way better including some UX and UI 
---faster load-time on the website with a better security and SSL
---Have some class into it meaing (better layout,color,background pictures, text fonts, scroll animation)
---
+### Changes will be made (soon) 
+-ill have some time to make the webiste way better including some UX and UI 
+-faster load-time on the website with a better security and SSL
+-Have some class into it meaing (better layout,color,background pictures, text fonts, scroll animation)
+-
