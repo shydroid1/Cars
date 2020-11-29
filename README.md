@@ -6,7 +6,7 @@
 
 ### Requirements
 1. CSS
-- Created a hover and when you hover over an image it shows text over it 
+- add only-child 
 - Createad a loading spin animation
 
 2. Javascript
