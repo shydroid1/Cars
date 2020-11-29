@@ -121,6 +121,40 @@ div.text {
     }
 }
 
+
+@media (min-width: 800px) {
+    .col {
+    margin-bottom: 10px
+    }
+    .rowone {
+    width: 60%;
+    float: left;
+    }
+    .rowtwo {
+    width: 40%;
+    float: right;
+    }
+    .middle {
+    float: right;
+    width: 66.6%;
+    background: white;
+    }
+    .left {
+    float: left;
+    width: 32%;
+    background: white;
+    }
+    .right {
+    float: left;
+    width: 100%;
+    background: white;
+    margin-bottom: 30px;;
+    }
+}
+p:only-child {
+    color: chartreuse;
+}
+
 .loader {
     border: 16px solid #f3f3f3; 
     border-top: 16px solid #3498db; 
