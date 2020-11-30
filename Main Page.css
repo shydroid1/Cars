@@ -91,10 +91,8 @@ div.text {
     margin-bottom: 50%;
 }
 
-@media (min-width: 1000px) {
-    .col {
-    margin-bottom: 10px
-    }
+@media (min-width: 600px) {
+
     .rowone {
     width: 60%;
     float: left;
@@ -122,38 +120,22 @@ div.text {
 }
 
 
-@media (min-width: 800px) {
-    .col {
-    margin-bottom: 10px
-    }
-    .rowone {
-    width: 60%;
-    float: left;
-    }
-    .rowtwo {
-    width: 40%;
-    float: right;
-    }
-    .middle {
-    float: right;
-    width: 66.6%;
-    background: white;
-    }
-    .left {
-    float: left;
-    width: 32%;
-    background: white;
-    }
-    .right {
-    float: left;
-    width: 100%;
-    background: white;
-    margin-bottom: 30px;;
-    }
+@media (min-width: 1080px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
 }
 p:only-child {
     color: chartreuse;
 }
+
+img { max-width: 100%; height: auto; }
+
 
 .loader {
     border: 16px solid #f3f3f3; 

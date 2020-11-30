@@ -8,5 +8,3 @@ for (i = 0; i <Car.length; i++) {
 }
 var Car
 console.log(Car)
-
-s
