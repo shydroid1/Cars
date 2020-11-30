@@ -11,6 +11,7 @@
 
 2. Javascript
 - Created a JavaScript array that has values in disaplys
+- Created a loop
 
 
 ### Changes will be made (soon) 
