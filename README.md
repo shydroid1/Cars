@@ -8,6 +8,7 @@
 1. CSS
 - add only-child 
 - Createad a loading spin animation
+- Created 2 Media Queries that has a responsive to mobile devices  
 
 2. Javascript
 - Created a JavaScript array that has values in disaplys
