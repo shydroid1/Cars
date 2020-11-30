@@ -1,5 +1,5 @@
 document.getElementById("Car").innerHTML = Car;
-Car = ["Ferrari","LexusLFA","Porsche 918 Spider","Sian-Roadster",""]
+let Car = ["Ferrari","LexusLFA","Porsche 918 Spider","Sian-Roadster",]
 var text = "";
 var i;
 for (i = 0; i <Car.length; i++) {
@@ -8,3 +8,5 @@ for (i = 0; i <Car.length; i++) {
 }
 var Car
 console.log(Car)
+
+s
